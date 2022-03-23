@@ -12,6 +12,7 @@ import org.springframework.context.annotation.Bean;
 import java.util.function.Function;
 
 //WebFlux
+//git hub commit 1st time
 @SpringBootApplication
 @EnableEurekaClient
 public class GatewayApplication {
