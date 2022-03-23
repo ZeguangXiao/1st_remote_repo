@@ -12,6 +12,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 
 /**
  * fallback = BookServiceFallback.class 表示处理服务降级的类
+ * see whats this hah 01
  */
 @FeignClient(value = "storage",fallback = BookServiceFallback.class)
 public interface BookService {
