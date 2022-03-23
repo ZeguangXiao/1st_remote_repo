@@ -6,6 +6,7 @@ import org.springframework.cloud.client.SpringCloudApplication;
 import org.springframework.cloud.openfeign.EnableFeignClients;
 
 //@SpringBootApplication
+//this is hystrix demo 03
 @SpringCloudApplication
 @EnableFeignClients
 public class Hystrix03Application {
