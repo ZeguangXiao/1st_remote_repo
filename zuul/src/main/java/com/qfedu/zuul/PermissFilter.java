@@ -16,6 +16,7 @@ import javax.servlet.http.HttpServletRequest;
 
 /**
  * 自定义过滤器，可以在这个过滤器中预处理到达的请求
+ * you seee whats this
  */
 @Component
 public class PermissFilter extends ZuulFilter {
