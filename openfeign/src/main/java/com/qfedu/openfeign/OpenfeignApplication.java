@@ -8,6 +8,7 @@ import org.springframework.cloud.openfeign.EnableFeignClients;
 @SpringBootApplication
 @EnableEurekaClient
 //开启 Feign 的客户端
+// changed this 2nd
 @EnableFeignClients
 public class OpenfeignApplication {
 
