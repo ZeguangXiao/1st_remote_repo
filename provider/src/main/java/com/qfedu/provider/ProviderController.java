@@ -1,7 +1,6 @@
-package com.qfedu.consumer;
+package com.qfedu.provider;
 
 import org.springframework.beans.factory.annotation.Value;
-import org.springframework.cloud.context.config.annotation.RefreshScope;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
@@ -10,14 +9,13 @@ import org.springframework.web.bind.annotation.RestController;
  * @creatTime 2022-03-25
  */
 @RestController
-@RefreshScope
-public class ConsumerController {
+public class ProviderController {
 
     @Value("${environment}")
     String environment;
 
     @GetMapping("/environment")
-    public String consume(){
+    public String provide(){
         return environment;
     }
 }
