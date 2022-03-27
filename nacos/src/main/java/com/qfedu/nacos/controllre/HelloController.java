@@ -1,4 +1,4 @@
-package com.qfedu.nacos;
+package com.qfedu.nacos.controllre;
 
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.cloud.context.config.annotation.RefreshScope;
@@ -6,8 +6,8 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 /**
- * @author XZG
- * @creatTime 2022-03-26
+ * @author 百泽
+ * @公众号 Java架构栈
  */
 @RestController
 @RefreshScope
@@ -17,7 +17,8 @@ public class HelloController {
     String name;
 
     @GetMapping("/hello")
-    public String hello(){
+    public String hello() {
         return name;
     }
+
 }
